@@ -1,0 +1,19 @@
+{
+  "bugs": {
+    "url": "https://github.com/NBS-LLC/github-api-sandbox/issues"
+  },
+  "description": "A sandbox for playing around with GitHub's API.",
+  "homepage": "https://github.com/NBS-LLC/github-api-sandbox#readme",
+  "license": "ISC",
+  "main": "app.ts",
+  "name": "github-api-sandbox",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NBS-LLC/github-api-sandbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
