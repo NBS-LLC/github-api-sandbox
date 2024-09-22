@@ -3,10 +3,14 @@
     "url": "https://github.com/NBS-LLC/github-api-sandbox/issues"
   },
   "dependencies": {
+    "@octokit/rest": "^21.0.2"
+  },
+  "description": "A sandbox for playing around with GitHub's API.",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2"
   },
-  "description": "A sandbox for playing around with GitHub's API.",
   "homepage": "https://github.com/NBS-LLC/github-api-sandbox#readme",
   "license": "ISC",
   "main": "app.ts",
@@ -17,7 +21,10 @@
     "url": "git+https://github.com/NBS-LLC/github-api-sandbox.git"
   },
   "scripts": {
+    "check": "tsc --noEmit",
+    "start": "tsx app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "version": "1.0.0"
 }
